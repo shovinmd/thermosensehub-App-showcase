@@ -367,18 +367,82 @@ footer p {
         flex-direction: column;
         text-align: center;
         padding-top: 150px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     
     .hero-text {
         margin-bottom: 60px;
     }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
     
     header {
-        padding: 20px;
+        padding: 20px 30px;
     }
     
     nav {
         display: none; /* simple mobile nav hide for now */
+    }
+
+    .screenshot-img {
+        height: 450px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .features, .screenshots, .download {
+        padding: 60px 20px;
+    }
+
+    .features h2, .screenshots h2 {
+        font-size: 36px;
+    }
+
+    .feature-box {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .screenshot-img {
+        height: 350px;
+    }
+
+    .images {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .download-content {
+        padding: 40px 20px;
+    }
+
+    .download-content h2 {
+        font-size: 28px;
+    }
+
+    .btn-large {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+    
+    .app-icon {
+        width: 30px;
+        height: 30px;
     }
 }
 
