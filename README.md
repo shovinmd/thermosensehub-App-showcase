@@ -12,11 +12,10 @@ Official showcase website for ThermoSenseHub – Smart Baby Temperature Monitori
 - Offline + Local Access
 
 ## 🌐 Live Website
-(https://thermo-sense-hub-hh2t.vercel.app/)
+http://192.168.4.1
 
-## 📥 Download App & Web Access
+## 📥 Download App
 [Download APK](https://github.com/shovinmd/thermosensehub-App-showcase/releases/download/v1.0/ThermoSenseHub.v.1.apk)
-[Access Web Dashboard](https://thermo-sense-hub-hh2t.vercel.app/)
 
 ## 🖼 Screenshots
 ![App Preview](assets/app_screenshot_1.jpg)
