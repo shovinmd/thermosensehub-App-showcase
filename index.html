@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThermoSenseHub - Health Monitoring App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/thermoicon.png">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">
+            <img src="assets/thermoicon.png" alt="App Icon" class="app-icon">
+            <span><span style="color: var(--accent-green);">Thermo</span><span style="color: var(--accent-blue);">Sense</span><span style="color: white;">Hub</span></span>
+        </div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#screenshots">App View</a>
+            <a href="#download" class="btn-nav">Download Now</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hidden" id="hero">
+        <div class="hero-text">
+            <h1>Your Health, <br><span class="gradient-text">Monitored Smarter</span></h1>
+            <p>Experience seamless temperature and vital signs monitoring with ThermoSenseHub. Stay on top of your well-being with real-time insights and elegant analytics.</p>
+            <a href="#download" class="btn"><i class="fa-brands fa-android"></i> Download APK</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/app_screenshot_1.jpg" alt="ThermoSenseHub App Preview" class="floating">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features hidden" id="features">
+        <h2>Why Choose <span class="gradient-text">ThermoSenseHub</span>?</h2>
+        <div class="feature-container">
+            <div class="feature-box">
+                <div class="icon"><i class="fa-solid fa-temperature-half"></i></div>
+                <h3>Real-Time Tracking</h3>
+                <p>Monitor your temperature and vital signs instantly with zero delay.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Detailed Analytics</h3>
+                <p>View beautiful charts and historical data to understand your health trends.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Secure & Private</h3>
+                <p>Your health data is encrypted and stored securely on your device.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon"><i class="fa-solid fa-bell"></i></div>
+                <h3>Smart Alert System</h3>
+                <p>Instant alerts for HIGH/VERY HIGH temperatures with custom notifications and sound. Makes your system responsive and safe.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon"><i class="fa-solid fa-palette"></i></div>
+                <h3>Status Classification</h3>
+                <p>Automatically classifies status as LOW, NORMAL, WATCH, or HIGH with an intuitive color-based UI.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon"><i class="fa-solid fa-notes-medical"></i></div>
+                <h3>Basic Care Guidance</h3>
+                <p>Provides simple home care suggestions and remedies based on the current temperature level.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon"><i class="fa-solid fa-wifi"></i></div>
+                <h3>Offline + Local Access</h3>
+                <p>Works without internet via Hotspot mode, connecting directly to the device for reliable access in all conditions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots hidden" id="screenshots">
+        <h2>App <span class="gradient-text">Gallery</span></h2>
+        <p class="subtitle">A stunning interface designed for ease of use. Swipe to explore.</p>
+        <div class="carousel-wrapper">
+            <div class="images" id="screenshot-carousel">
+                <img src="assets/app_screenshot_1.jpg" alt="Screenshot 1" class="screenshot-img">
+                <img src="assets/app_screenshot_2.jpg" alt="Screenshot 2" class="screenshot-img">
+                <img src="assets/app_screenshot_3.jpg" alt="Screenshot 3" class="screenshot-img">
+                <img src="assets/app_screenshot_4.jpg" alt="Screenshot 4" class="screenshot-img">
+                <img src="assets/app_screenshot_5.jpg" alt="Screenshot 5" class="screenshot-img">
+                <img src="assets/app_screenshot_6.jpg" alt="Screenshot 6" class="screenshot-img">
+                <img src="assets/app_screenshot_7.jpg" alt="Screenshot 7" class="screenshot-img">
+            </div>
+        </div>
+        <p class="subtitle" style="margin-top: 40px; margin-bottom: 0;">The app not only monitors temperature but also provides alerts, classification, and basic care guidance, ensuring quick and informed action even without internet connectivity.</p>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download hidden" id="download">
+        <div class="download-content">
+            <h2>Ready to take control?</h2>
+            <p>Download ThermoSenseHub today and start monitoring your health with precision.</p>
+            <a href="thermoSenseHub_v.1.apk" download="thermoSenseHub_v.1.apk" class="btn btn-large">
+                <i class="fa-solid fa-download"></i> Download ThermoSenseHub v.1.apk
+            </a>
+            <p class="version-info">Version 1.0.0 | Requires Android 8.0+</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="assets/thermoicon.png" alt="App Icon" class="app-icon">
+                <span><span style="color: var(--accent-green);">Thermo</span><span style="color: var(--accent-blue);">Sense</span><span style="color: white;">Hub</span></span>
+            </div>
+            <p>&copy; 2026 Developed by Shovin</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Full Screen Screenshot">
+            <div class="lightbox-nav">
+                <button id="prev-btn" class="nav-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="next-btn" class="nav-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
