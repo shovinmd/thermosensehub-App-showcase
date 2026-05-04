@@ -19,7 +19,7 @@ Smart Baby Temperature Monitoring System
 http://192.168.4.1
 
 ## 📥 Download App
-[Download APK](thermoSenseHub_v.1.apk)
+[Download APK](ThermoSenseHub_v.1.apk)
 
 ## 🖼 Screenshots
 ![App Preview](assets/app_screenshot_1.jpg)
