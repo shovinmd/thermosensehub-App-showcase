@@ -17,18 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hiddenElements = document.querySelectorAll('.hidden');
     hiddenElements.forEach((el) => observer.observe(el));
 
-    // Smooth scroll for nav links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
+
     // Auto-scroll and drag-to-scroll for screenshots carousel
     const carousel = document.getElementById('screenshot-carousel');
     let isDown = false;
