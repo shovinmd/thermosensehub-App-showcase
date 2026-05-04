@@ -16,7 +16,7 @@ Smart Baby Temperature Monitoring System
 - Offline + Local Access
 
 ## 🌐 Live Website
-(Will add after hosting)
+http://192.168.4.1
 
 ## 📥 Download App
 [Download APK](thermoSenseHub_v.1.apk)
