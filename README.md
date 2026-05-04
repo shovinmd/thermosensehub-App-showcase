@@ -1,9 +1,5 @@
-# thermosensehub-App-showcase
-Official showcase website for ThermoSenseHub – Smart Baby Temperature Monitoring App with real-time tracking, alerts, and IoT integration.
-
 # ThermoSenseHub Showcase 🚀
-
-Smart Baby Temperature Monitoring System
+Official showcase website for ThermoSenseHub – Smart Baby Temperature Monitoring App with real-time tracking, alerts, and IoT integration.
 
 ## 📱 Features
 - Real-time temperature monitoring
